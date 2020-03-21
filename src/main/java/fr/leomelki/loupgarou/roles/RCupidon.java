@@ -187,8 +187,8 @@ public class RCupidon extends Role{
 		player.getCache().remove("cupidon_first");
 		player.stopChoosing();
 		player.hideView();
-		//player.sendTitle("§cVous n'avez mis personne en couple", "§4Vous avez mis trop de temps à vous décider...", 80);
-		//player.sendMessage("§9Tu n'as pas créé de couple.");
+		player.sendTitle("§cVous n'avez mis personne en couple", "§4Vous avez mis trop de temps à vous décider...", 80);
+		player.sendMessage("§9Tu n'as pas créé de couple.");
 	}
 	
 	
